@@ -1,0 +1,24 @@
+env_name: 'CartPole-v1'
+n_steps: 32
+mini_batch_size: 256
+max_train_steps: 100000
+lr_a: 0.01
+lr_c: 0.001
+gamma: 0.98
+lamda: 0.8
+epsilon: 0.2
+K_epochs: 20
+entropy_coef: 0.00
+num_envs: 8
+normalize_state: False
+normalize_reward: False
+is_continuous: False
+clip_decay: True
+lr_decay: True
+ini_method: 0
+seed: 42
+n_blocks: 1
+n_wires: 4
+which_classical: 0
+# use_quafu: True
+# key: 

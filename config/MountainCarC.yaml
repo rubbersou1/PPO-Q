@@ -1,0 +1,25 @@
+env_name: 'MountainCarContinuous-v0'
+n_steps: 8
+mini_batch_size: 256
+max_train_steps: 20000
+lr_a: 0.000777
+lr_c: 0.0000777
+gamma: 0.9999
+lamda: 0.9
+epsilon: 0.1
+K_epochs: 10
+entropy_coef: 0.005
+num_envs: 1
+normalize_state: True
+normalize_reward: True
+is_continuous: True
+clip_decay: False
+lr_decay: False
+ini_method: 2 
+seed: 42
+n_blocks: 3  
+n_wires: 2
+which_classical: 0
+# use_quafu: True
+# key: 
+
